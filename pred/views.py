@@ -14,6 +14,5 @@ def result(request):
         print(type(pro))
 
         final_res=calc(ar,fer,pes,pro)
-        print(final_res)
     return render(request, 'index_res.html', {'ans': final_res})
     
