@@ -1,0 +1,75 @@
+      
+        body {
+            background-image: url("Farm.jpg"),
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+        }
+
+        
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%; 
+            max-width: 800px; 
+        }
+
+        
+        .form-control {
+            width: calc(100% - 16px); 
+        }
+
+       
+        .form-label {
+            font-weight: bold;
+            color: #333;
+        }
+
+       
+        .form-input {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        
+        .submit-btn {
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 10px; 
+            width: 400 
+        }
+
+        .submit-btn:hover {
+            transition: background-color 0.3s ease;
+        }
+
+        .center-btn {
+            text-align: center;
+        }
+
+       
+        .heading {
+            font-size: 38px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px; 
+            text-align: center;
+        }
+
+    
+        #google_translate_element {
+            margin-top: 20px;
+        }
